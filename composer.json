@@ -30,6 +30,7 @@
 	"illuminate/events": "5.0.*",
 	"illuminate/view": "5.0.*",
 	"symfony/config": "2.5.*",
+	"cartalyst/sentry": "~3.0",
 	"symfony/translation": "2.5.*"
 },
 "replace": {
@@ -40,7 +41,7 @@
 	"src/Support/helpers.php"
 ],
 "psr-4": {
-	"October\\Rain\\": "src/"
+	"Homeiumbrella\\Typhoon\\": "src/"
 }
 },
 "autoload-dev": {
